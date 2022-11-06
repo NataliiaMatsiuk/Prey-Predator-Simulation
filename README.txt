@@ -11,4 +11,5 @@ Also the ocean contains obstacles which do not do anything during the game.
 To implement this simulation a program was written using Python. The ocean was drawn using ASCII characters of "#" for an obstacle, "f" for a fish, "S" for a shark or "-" for an empty space. 
 The class named Cell was created that encapsulates basic data common to obstacles, fish and sharks. This class has an abstract method named Move that is defined in the derived classes of Prey and Predator. 
 
-The game was initialized with the number of obstacles, fish and sharks which are inputs by user as well as the number of iterations. The game lasts until the number of iteration was goaled or the number of fish or sharks equal to zero. 
+The game was initialized with the number of obstacles, fish and sharks which are inputs by user as well as the number of iterations. The game lasts until the number of iteration was goaled or the number of fish or sharks equal to zero. The results of simulation is showed with tkinker.
+  
