@@ -1,5 +1,5 @@
 
-from Ocean_without_tkinter import *
+from Ocean import *
 from Cell import *
 from Prey import Prey
 from Predator import *
